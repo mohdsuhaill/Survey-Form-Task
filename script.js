@@ -1,4 +1,4 @@
-
+// creating Elements 
 
 const formData = document.getElementById("survey-form");
 const tblFirstname = document.getElementById("firstname");
@@ -11,7 +11,7 @@ const tblComments = document.getElementById("comment");
 const tblState = document.getElementById("state1");
 const tblCountry = document.getElementById("country1");
 
-
+// Adding eventlisener...
 formData.addEventListener("submit",(e)=>{
    e.preventDefault()
     const Firstname = document.querySelector('input[name="firstname"]').value;
